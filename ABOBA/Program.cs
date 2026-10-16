@@ -16,7 +16,7 @@ namespace ABOBA
                "Server=COMP7A2\\SQLEXPRESS;" +
                "Database=TestIndex;" +
                "Trusted_Connection=yes;" +
-               "Encrypt=yes;" +
+               "Encrypt=yes;" + 
                "TrustServerCertificate=yes;";
 
             SqlConnection connection = new SqlConnection(conn_str);
